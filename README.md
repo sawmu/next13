@@ -19,6 +19,24 @@ npm install swr
 # prettier
 npm install --save-dev prettier
 ```
+## Create .prettierrc.json
+```bash
+{
+    "singleQuote": false,
+    "semi": true,
+    "tabWidth": 4
+}
+# add scripts to package.json
+"scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "format": "prettier --check --ignore-path .gitignore .",
+        "format:fix": "prettier --write --ignore-path .gitignore ."
+},
+```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
