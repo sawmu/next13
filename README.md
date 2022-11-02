@@ -31,12 +31,8 @@ npm install --save-dev prettier
 
 "scripts": 
 {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint",
-        "format": "prettier --check --ignore-path .gitignore .",
-        "format:fix": "prettier --write --ignore-path .gitignore ."
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
 },
 ```
 
