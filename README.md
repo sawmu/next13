@@ -26,8 +26,11 @@ npm install --save-dev prettier
     "semi": true,
     "tabWidth": 4
 }
+
 # add scripts to package.json
-"scripts": {
+
+"scripts": 
+{
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
